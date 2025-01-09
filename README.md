@@ -59,5 +59,13 @@ Checks if the board has any unoccupied spaces left for further moves.
 FSM Controller:
 Orchestrates the game flow, determining when the player or computer takes a turn and when the game ends.
 
-# In conclusion,
-the Tic-Tac-Toe game implemented using a Finite State Machine (FSM) in Verilog showcases the power of FSMs in controlling sequential logic for interactive systems. By utilizing a Moore FSM with distinct states for the player, computer, idle, and game-over conditions, the project demonstrates efficient game flow management. Key components such as position registers, winner detectors, and illegal move detectors highlight how modular Verilog code can be used to design and control complex systems. Through this project, valuable insights were gained into digital design, Verilog programming, and FSM-based system control. The project not only provided a practical application of FSM concepts but also offered a foundation for further expansion, such as adding AI difficulty levels or incorporating graphical interfaces, opening up numerous possibilities for future enhancements and real-world applications.
+# Conclusion
+In this project, I successfully implemented a Tic-Tac-Toe game using a Finite
+State Machine (FSM) model in Verilog using Synopsys VCS and Xilinx Vivado,
+demonstrating the power of digital logic design and state-based control systems.
+By utilizing a Moore FSM with distinct states for the player, computer, idle, and
+game-over conditions, the project demonstrates efficient game flow
+management. Key components such as position registers, winner detectors, and
+illegal move detectors highlight how modular Verilog code can be used to design
+and control complex systems. Through this project, valuable insights were
+gained into digital design and Verilog programming
