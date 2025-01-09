@@ -7,10 +7,13 @@ This project implements Tic-Tac-Toe using the Finite State Machine (FSM) concept
 IDLE (00):
 The starting or resting state of the game.
 The system remains in this state while waiting for the player or computer to take their turn, or during a reset.
+
 PLAYER (01):
 The player makes their move, and their input is stored in the respective position on the grid.
+
 COMPUTER (10):
 The computer takes its turn, and its move is registered in the board's decoded position.
+
 GAMEOVER (11):
 This state is reached when a winner is determined, or no more moves are possible.
 
